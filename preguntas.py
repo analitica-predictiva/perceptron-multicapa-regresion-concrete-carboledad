@@ -16,7 +16,7 @@ def pregunta_01():
     Carga y separación de los datos en `X` `y`
     """
     # Lea el archivo `concrete.csv` y asignelo al DataFrame `df`
-    df = pd.read_csv("https://jdvelasq.github.io/courses/notebooks/sklearn_supervised_10_neural_networks/1-02_pronostico_de_la_resistencia_del_concreto.html" )  
+    df = pd.read_csv("https://raw.githubusercontent.com/jdvelasq/datalabs/master/datasets/concrete.csv", sep = ',',thousands = None,decimal = '.')  
 
     # Asigne la columna `strength` a la variable `y`.
     y = df['strength']    
