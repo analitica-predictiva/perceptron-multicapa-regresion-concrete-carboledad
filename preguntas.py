@@ -19,13 +19,13 @@ def pregunta_01():
     df = pd.read_csv("https://raw.githubusercontent.com/jdvelasq/datalabs/master/datasets/concrete.csv", sep = ',',thousands = None,decimal = '.')  
 
     # Asigne la columna `strength` a la variable `y`.
-    y = df['strength']    
+    y = df['strength']
 
     # Asigne una copia del dataframe `df` a la variable `X`.
-    x = df.copy()  
+    x = df.copy()
 
     # Remueva la columna `strength` del DataFrame `X`.
-    df.drop('strength', axis = 1) 
+    x = df.drop('strength', axis = 1)
 
     # Retorne `X` y `y`
     return x, y
