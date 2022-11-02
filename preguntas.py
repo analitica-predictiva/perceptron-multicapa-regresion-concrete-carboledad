@@ -22,7 +22,7 @@ def pregunta_01():
     y = df['strength']    
 
     # Asigne una copia del dataframe `df` a la variable `X`.
-    df = df.copy(X)  
+    x = df.copy()  
 
     # Remueva la columna `strength` del DataFrame `X`.
     df.drop('strength', axis = 1) 
