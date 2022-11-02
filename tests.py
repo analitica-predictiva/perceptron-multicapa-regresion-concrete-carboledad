@@ -9,12 +9,12 @@ import preguntas
 
 
 def test_01():
-    """
-    ---< Input/Output test case >----------------------------------------------------
-    Pregunta 01
-    pip3 install scikit-learn pandas numpy
-    python3 tests.py 01
-    """
+    #"""
+    #---< Input/Output test case >----------------------------------------------------
+    #Pregunta 01
+    #pip3 install scikit-learn pandas numpy
+    #python3 tests.py 01
+    #"""
 
     x_data, y_data = preguntas.pregunta_01()
 
