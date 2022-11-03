@@ -26,9 +26,12 @@ def pregunta_01():
 
     # Remueva la columna `strength` del DataFrame `X`.
     x = df.drop('strength', axis = 1)
+    
+    x_data = x
+    y_data = y
 
     # Retorne `X` y `y`
-    return x, y
+    return x_data, y_data
 
 
 def pregunta_02():
