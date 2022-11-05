@@ -164,7 +164,7 @@ def pregunta_05():
     )
     mse_test = mean_squared_error(  
         y_test,  
-        y_train_pred,  
+        y_test_pred,  
     )
 
     # Retorne el mse de entrenamiento y prueba
