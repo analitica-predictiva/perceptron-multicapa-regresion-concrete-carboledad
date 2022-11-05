@@ -99,8 +99,7 @@ def pregunta_04():
     # Importe GridSearchCV
     from sklearn.model_selection import GridSearchCV
     from sklearn.metrics import r2_score
-    from tensorflow.keras.callbacks import EarlyStopping
-
+    
     # Cree una malla de búsqueda para el objecto GridSearchCV
     # con los siguientes parámetros de búesqueda:
     #   * De 1 a 8 neuronas en la capa oculta
